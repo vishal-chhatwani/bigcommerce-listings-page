@@ -24,8 +24,6 @@ export default function Home({listings = []}) {
   const [currentPage, setCurrentPage] = useState(pageIndex + 1);
   const [totalPages, setTotalPages] = useState(listings.length / LISTINGS_PAGE_SIZE);
 
-  console.log('totalPages: ', totalPages);
-
   useEffect(() => {
     setCurrentPage(pageIndex + 1);
   }, [pageIndex]);
