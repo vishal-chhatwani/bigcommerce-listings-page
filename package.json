@@ -7,13 +7,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "axios": "^0.26.0",
     "cors": "^2.8.5",
     "next": "latest",
-    "next-connect": "^0.12.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "sass": "^1.49.9",
     "swr": "^1.2.2"
   },
   "devDependencies": {

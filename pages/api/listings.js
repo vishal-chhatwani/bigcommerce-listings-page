@@ -1,4 +1,3 @@
-import axios from 'axios';
 import Cors from 'cors'
 
 import initMiddleware from '../../lib/init-middleware'
